@@ -23,7 +23,7 @@ for (i = gap; i < size; i++)
 {
 temp = array[i];
 j = i;
-            
+
 while (j >= gap && array[j - gap] > temp)
 {
 array[j] = array[j - gap];
